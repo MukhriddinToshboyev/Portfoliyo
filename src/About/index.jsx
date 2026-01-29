@@ -1,14 +1,24 @@
 import "./style.css";
-import Vector from "../assets/Vector.png";
 
 function About() {
   return (
     <div className="About_container">
-      <h2>MT</h2>
-      <button>About</button>
-      <button>Projects</button>
-      <button>Contact</button>
-      <img src={Vector} alt="#" />
+      <div className="About_img">
+        <img src="../assets/Vector.svg" alt="#" />
+      </div>
+      <div className="About_text">
+        <h2>About Me</h2>
+        <span> Who Am I? </span>
+        <p>
+          I am a passionate frontend developer with experience in creating
+          responsive and user-friendly web applications. My expertise includes
+          React, JavaScript, and modern CSS frameworks.
+        </p>
+        <div>
+          <img src="" alt="" />
+        </div>
+        <button> Download Resume</button>
+      </div>
     </div>
   );
 }
