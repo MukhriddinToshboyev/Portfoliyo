@@ -12,7 +12,10 @@ function Home() {
           <button>Projects</button>
           <button>Contact</button>
         </div>
-        <img className="Home_navbar_img" src={Vector} alt="#" />
+        <button className="Home_navbar_img">
+          {" "}
+          <img src={Vector} alt="#" />
+        </button>
       </div>
       <div className="Home_content">
         <div className="Home_content_text">
@@ -32,6 +35,7 @@ function Home() {
           <img src={Rasm} alt="#" />
         </div>
       </div>
+      <h2 className="Home_line"></h2>
     </div>
   );
 }
