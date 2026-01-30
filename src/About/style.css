@@ -1,0 +1,24 @@
+.About_container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About_img {
+  width: 10rem;
+  height: 23rem;
+  background-color: #55e5a4;
+}
+
+.About_img img {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 21rem;
+  height: 25rem;
+}
+
+.About_text {
+  width: 50%;
+}

@@ -1,10 +1,11 @@
 import "./style.css";
+import Rasm1 from "../assets/photo_2025-05-27_18-40-45.jpg";
 
 function About() {
   return (
     <div className="About_container">
       <div className="About_img">
-        <img src="../assets/Vector.svg" alt="#" />
+        <img src={Rasm1} alt="#" />
       </div>
       <div className="About_text">
         <h2>About Me</h2>

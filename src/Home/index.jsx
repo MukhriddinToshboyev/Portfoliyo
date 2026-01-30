@@ -1,6 +1,6 @@
 import "./style.css";
 import Vector from "../assets/Vector.png";
-import Rasm from "../assets/photo_3x4_format.png";
+import Rasm from "../assets/photo_2025-05-27_18-40-45.jpg";
 
 function Home() {
   return (
