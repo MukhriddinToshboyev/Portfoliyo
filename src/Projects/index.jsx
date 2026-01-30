@@ -2,8 +2,8 @@ import "./style.css";
 
 function Projects() {
   return (
-    <div className="projects">
-      <h1>Projects</h1>
+    <div className="Projects_container">
+      <h1 className="Projects_title">Projects</h1>
       <div className="Projects_btn">
         <button> All Projects</button>
         <button> Frontend</button>

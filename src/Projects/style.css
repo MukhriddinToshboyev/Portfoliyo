@@ -1,0 +1,28 @@
+.Projects_container {
+  width: 63.75rem;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.Projects_title {
+  margin: 2rem;
+  font-size: 2.5rem;
+}
+
+.Projects_btn {
+  display: flex;
+  gap: 3rem;
+}
+
+.Projects_btn button {
+  background: none;
+  color: white;
+  border: 2px solid #55e5a4;
+  width: 10rem;
+  height: 3.125rem;
+  font-size: 1.3rem;
+}
