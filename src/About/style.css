@@ -3,7 +3,7 @@
   height: 100vh;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -26,7 +26,4 @@
 
 .About_section {
   width: 28rem;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 }

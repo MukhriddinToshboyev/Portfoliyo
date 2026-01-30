@@ -13,7 +13,6 @@ function Home() {
           <button>Contact</button>
         </div>
         <button className="Home_navbar_img">
-          {" "}
           <img src={Vector} alt="#" />
         </button>
       </div>
