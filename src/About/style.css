@@ -1,24 +1,32 @@
 .About_container {
-  width: 100%;
+  width: 63.75rem;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.About_img {
+.About_navbar {
+  width: 28rem;
+}
+
+.About_navbar_img {
   width: 10rem;
-  height: 23rem;
+  height: 22rem;
   background-color: #55e5a4;
 }
 
-.About_img img {
+.About_navbar_img img {
   margin-top: 1rem;
   margin-left: 1rem;
-  width: 21rem;
-  height: 25rem;
+  width: 19rem;
+  height: 22rem;
 }
 
-.About_text {
-  width: 50%;
+.About_section {
+  width: 28rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }

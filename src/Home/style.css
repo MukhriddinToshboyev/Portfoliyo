@@ -61,10 +61,11 @@
 /* Content */
 
 .Home_content {
-  width: 100%;
+  width: 63.75rem;
+  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .Home_content_text {
