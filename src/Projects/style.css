@@ -1,6 +1,6 @@
 .Projects_container {
   width: 63.75rem;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -9,8 +9,8 @@
 }
 
 .Projects_title {
-  margin: 2rem;
-  font-size: 2.5rem;
+  margin: 3rem;
+  font-size: 2rem;
 }
 
 .Projects_btn {
@@ -18,30 +18,46 @@
   gap: 3rem;
 }
 
-.Projects_btn button {
-  background: none;
-  color: white;
+.Projects_btn :hover {
+  background: #55e5a4;
+  color: #26313f;
   border: 2px solid #55e5a4;
   width: 10rem;
   height: 3.125rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .Projects_btn_all {
+  background: #55e5a4;
+  color: #26313f;
+  border: 2px solid #55e5a4;
+  width: 10rem;
+  height: 3.125rem;
+  font-size: 1.2rem;
+}
+
+.Projects_btn_geo {
   background: none;
   color: white;
   border: 2px solid #55e5a4;
   width: 10rem;
   height: 3.125rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 /* Section */
 
 .Projects_section {
-  width: 28rem;
-  height: 35rem;
-  border: 1px solid red;
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Projects_section_card {
+  margin-bottom: 5rem;
   border-radius: 1rem;
   background-color: #26313f;
 }
@@ -102,4 +118,12 @@
   height: 2rem;
   font-size: 1rem;
   margin: 1rem;
+}
+
+/* Line */
+
+.Projects_line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #55e5a4;
 }
