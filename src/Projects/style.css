@@ -26,3 +26,80 @@
   height: 3.125rem;
   font-size: 1.3rem;
 }
+
+.Projects_btn_all {
+  background: none;
+  color: white;
+  border: 2px solid #55e5a4;
+  width: 10rem;
+  height: 3.125rem;
+  font-size: 1.3rem;
+}
+
+/* Section */
+
+.Projects_section {
+  width: 28rem;
+  height: 35rem;
+  border: 1px solid red;
+  border-radius: 1rem;
+  background-color: #26313f;
+}
+
+.Projects_img {
+  width: 28rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.Projects_section_text {
+  width: 28rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Projects_section_name {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.Projects_section_title {
+  color: #a9a9a9;
+  text-align: flex-start;
+  margin-left: 1.3rem;
+}
+
+.Projects_section_techno {
+  font-size: 1rem;
+  margin: 0.6rem;
+}
+
+.Projects_section_icons {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+/* Footer */
+
+.Projects_footer_btn_visit {
+  background: none;
+  color: white;
+  border: 2px solid #ffff;
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.Projects_footer_btn_view {
+  color: #26313f;
+  border: 2px solid #55e5a4;
+  background: #55e5a4;
+  width: 8rem;
+  height: 2rem;
+  font-size: 1rem;
+  margin: 1rem;
+}
