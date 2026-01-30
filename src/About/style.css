@@ -3,8 +3,9 @@
   height: 100vh;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  font-family: sans-serif;
 }
 
 .About_navbar {
@@ -12,18 +13,89 @@
 }
 
 .About_navbar_img {
-  width: 10rem;
-  height: 22rem;
+  width: 14rem;
+  height: 26rem;
   background-color: #55e5a4;
 }
 
 .About_navbar_img img {
   margin-top: 1rem;
   margin-left: 1rem;
-  width: 19rem;
-  height: 22rem;
+  width: 23rem;
+  height: 26rem;
 }
+
+/* Section */
 
 .About_section {
   width: 28rem;
+}
+
+.About_section_name {
+  width: 15rem;
+  height: 6rem;
+}
+
+.About_title {
+  font-size: 2.625rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.About_title_span {
+  margin-left: 6.5rem;
+}
+
+.About_span {
+  font-size: 0.8rem;
+  color: #55e5a4;
+  font-family: sans-serif;
+}
+
+.About_section_text {
+  color: #a9a9a9;
+  font-size: 1.3rem;
+  display: flex;
+  text-align: justify;
+}
+
+/* Icon */
+
+.About_icons {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.About_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.About_icon_text {
+  color: #a9a9a9;
+}
+
+/* Button */
+
+.About_btn button {
+  margin-top: 1rem;
+  width: 12rem;
+  height: 2.5rem;
+  font-weight: bold;
+  background: none;
+  border: 2px solid #55e5a4;
+  color: #55e5a4;
+}
+
+/* Line */
+
+.About_line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #55e5a4;
 }
