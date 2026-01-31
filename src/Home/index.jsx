@@ -1,6 +1,7 @@
 import "./style.css";
 import Vector from "../assets/Vector.png";
 import Rasm from "../assets/photo_2025-05-27_18-40-45.jpg";
+import About from "../About";
 
 function Home() {
   return (
@@ -8,7 +9,9 @@ function Home() {
       <div className="Home_navbar">
         <h2 className="Home_navbar_name">MT</h2>
         <div className="Home_navbar_btn">
-          <button>About</button>
+          <a href="#About">
+            <button>About</button>
+          </a>
           <button>Projects</button>
           <button>Contact</button>
         </div>
