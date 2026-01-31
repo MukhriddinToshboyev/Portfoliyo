@@ -11,5 +11,40 @@
 .Contact_name {
   color: white;
   font-size: 3rem;
+  margin: 2rem;
+}
+
+.Contact_card {
+  width: 100%;
+  border: 2px solid red;
+  border-radius: 1.5rem;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navbar */
+.Contact_navbar_img {
+  width: 32rem;
+  height: 32rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  z-index: -1;
+}
+
+.Contact_navbar_text {
+  z-index: 9999;
+}
+
+/* Section */
+
+.Contact_section {
+  height: 32rem;
+  width: 50%;
+  background-color: white;
+  color: black;
+}
+
+.Contact_section_card {
+  list-style: none;
 }

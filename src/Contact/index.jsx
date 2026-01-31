@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className="Contact_container">
       <h2 className="Contact_name">Get In Touch</h2>
-      <div>
+      <div className="Contact_card">
         <div className="Contact_navbar">
           <img className="Contact_navbar_img" src={Contact_img} alt="" />
           <h2 className="Contact_navbar_text">
