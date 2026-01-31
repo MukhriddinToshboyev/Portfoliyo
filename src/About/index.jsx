@@ -33,7 +33,15 @@ function About() {
             specialize in React, JavaScript, HTML, and modern CSS frameworks,
             and I enjoy crafting clean, efficient code that users love. Always
             curious and eager to learn, I strive to make every project better
-            than the last. Check out my work on [GitHub/Portfolio link].
+            than the last. Check out my work on
+            <a
+              href="https://github.com/MukhriddinToshboyev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="About_link"
+            >
+              [GitHub/Portfolio link].
+            </a>
           </p>
           <div className="About_icons">
             <div className="About_icon">

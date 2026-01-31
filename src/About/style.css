@@ -56,7 +56,16 @@
   color: #a9a9a9;
   font-size: 1.3rem;
   display: flex;
+  flex-direction: column;
   text-align: justify;
+}
+
+.About_link {
+  color: #a9a9a9;
+}
+
+.About_link:hover {
+  color: #55e5a4;
 }
 
 /* Icon */
