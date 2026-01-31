@@ -1,26 +1,39 @@
 import "./style.css";
+import Contact_img from "../assets/ContactImg.png";
 
 function Contact() {
   return (
-    <div className="contact-container">
-      <h2>Contact Me</h2>
-      <img src="../assets/Vector.svg" alt="" />
-      <form className="contact-form">
-        <p> </p>
-        <button> Frontend</button>
-        <label>
-          Name:
-          <input type="text" name="name" />
-        </label>
-        <label>
-          Email:
-          <input type="email" name="email" />
-        </label>
-        <label>
-          Message:<textarea name="message"></textarea>
-        </label>
-        <button type="submit">Send Message</button>
-      </form>
+    <div className="Contact_container">
+      <h2 className="Contact_name">Get In Touch</h2>
+      <div>
+        <div className="Contact_navbar">
+          <img className="Contact_navbar_img" src={Contact_img} alt="" />
+          <h2 className="Contact_navbar_text">
+            {" "}
+            You can contact me Directly via the details below.
+          </h2>
+        </div>
+        <div className="Contact_section">
+          <h2 className="Contact_section_name"> Contact Information</h2>
+          <ul className="Contact_section_card">
+            <li>
+              <img className="Contact_section_icon" src="" alt="" />
+              <h1 className="Contact_section_title">Phone</h1>
+              <p className="Contact_section_text"> +998 (94) 933 43 63</p>
+            </li>
+            <li>
+              <img className="Contact_section_icon" src="" alt="" />
+              <h1 className="Contact_section_title">Email</h1>
+              <p className="Contact_section_text"> atoshboev331@gmail.com</p>
+            </li>
+            <li>
+              <img className="Contact_section_icon" src="" alt="" />
+              <h1 className="Contact_section_title">Telegram</h1>
+              <p className="Contact_section_text"> @muxriddin_09</p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
