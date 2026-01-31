@@ -405,8 +405,8 @@ function Footer() {
           </svg>
         </li>
       </ul>
-      <hr></hr>
-      <p> ©️ 2026 Muxriddin. All Rights Reserved </p>
+      <p className="Footer_line"></p>
+      <p className="Footer_text"> ©️ 2026 Muxriddin. All Rights Reserved </p>
     </div>
   );
 }
