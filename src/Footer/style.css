@@ -27,6 +27,17 @@
   list-style: none;
 }
 
+.Footer_icon svg {
+  color: #7cf0b2;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Footer_icon:hover svg {
+  transform: scale(1.05);
+  color: #7cf0b2;
+}
+
 .Footer_line {
   width: 100%;
 
