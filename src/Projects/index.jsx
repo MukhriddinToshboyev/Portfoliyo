@@ -22,12 +22,10 @@ function Projects() {
             <div className="Projects_section_text">
               <h2 className="Projects_section_name"> Restaurand Website</h2>
               <p className="Projects_section_title">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only{" "}
+                A modern and user-friendly restaurant website. The project
+                includes a food menu, pricing, category filtering, and a fully
+                responsive design. Built with modern frontend technologies to
+                deliver a fast and visually appealing user interface.
               </p>
               <h1 className="Projects_section_techno"> Technologies Used </h1>
               <ul className="Projects_section_icons">
@@ -163,12 +161,11 @@ function Projects() {
             <div className="Projects_section_text">
               <h2 className="Projects_section_name"> Users Website</h2>
               <p className="Projects_section_title">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only{" "}
+                Cuser is a web application developed using modern frontend
+                technologies for efficient user data management. The project
+                emphasizes clean design, usability, and clear functionality,
+                making it a practical example suitable for real-world
+                applications.
               </p>
               <h1 className="Projects_section_techno"> Technologies Used </h1>
               <ul className="Projects_section_icons">
@@ -304,12 +301,12 @@ function Projects() {
             <div className="Projects_section_text">
               <h2 className="Projects_section_name"> Circular Website</h2>
               <p className="Projects_section_title">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only{" "}
+                Circular Website is a landing page project developed using
+                modern frontend technologies. All navigation buttons in the top
+                menu are fully functional, providing smooth scrolling and access
+                to the corresponding sections of the page. The project
+                emphasizes clean design, responsive layout, and user-focused
+                navigation.
               </p>
               <h1 className="Projects_section_techno"> Technologies Used </h1>
               <ul className="Projects_section_icons">
@@ -445,12 +442,11 @@ function Projects() {
             <div className="Projects_section_text">
               <h2 className="Projects_section_name"> Working With API </h2>
               <p className="Projects_section_title">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only{" "}
+                Working With API is a frontend project integrated with an
+                external API to fetch and display real-time data. The
+                application features a search function, card-based layout, and
+                responsive design, focusing on usability and clear data
+                presentation.
               </p>
               <h1 className="Projects_section_techno"> Technologies Used </h1>
               <ul className="Projects_section_icons">
@@ -586,12 +582,10 @@ function Projects() {
             <div className="Projects_section_text">
               <h2 className="Projects_section_name"> To Do List </h2>
               <p className="Projects_section_title">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only{" "}
+                To-Do List is a frontend project designed to help users
+                efficiently plan and manage tasks. The application includes
+                features such as adding, editing, completing, and deleting
+                tasks, with a clean design and a focus on user experience.
               </p>
               <h1 className="Projects_section_techno"> Technologies Used </h1>
               <ul className="Projects_section_icons">
@@ -727,12 +721,12 @@ function Projects() {
             <div className="Projects_section_text">
               <h2 className="Projects_section_name"> Weather Forecast </h2>
               <p className="Projects_section_title">
-                {" "}
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only{" "}
+                Weather Forecast is a web application that retrieves real-time
+                weather data from an external API. Users can enter a city name
+                to view current weather conditions, temperature, and key weather
+                details. The project features a responsive layout, fast
+                performance, and a user-friendly interface, making it suitable
+                for portfolio presentation.
               </p>
               <h1 className="Projects_section_techno"> Technologies Used </h1>
               <ul className="Projects_section_icons">
