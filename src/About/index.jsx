@@ -1,5 +1,6 @@
 import "./style.css";
 import Rasm1 from "../assets/photo_2025-05-27_18-40-45.jpg";
+import Resume from "../assets/Muxriddin Resume.pdf";
 
 function About() {
   return (
@@ -27,12 +28,12 @@ function About() {
             </div>
           </div>
           <p className="About_section_text">
-            I am a passionate frontend developer with experience in creating
-            responsive and user-friendly web applications. My expertise includes
-            React, JavaScript, and modern CSS frameworks. I am a passionate
-            frontend developer with experience in creating responsive and
-            user-friendly web applications. My expertise includes React,
-            JavaScript, and modern CSS frameworks.
+            Hi, I’m Muxriddin, a front-end developer who loves bringing ideas to
+            life through interactive and responsive web applications. I
+            specialize in React, JavaScript, HTML, and modern CSS frameworks,
+            and I enjoy crafting clean, efficient code that users love. Always
+            curious and eager to learn, I strive to make every project better
+            than the last. Check out my work on [GitHub/Portfolio link].
           </p>
           <div className="About_icons">
             <div className="About_icon">
@@ -192,7 +193,9 @@ function About() {
             </div>
           </div>
           <div className="About_btn">
-            <button> Download Resume</button>
+            <a href={Resume} download>
+              <button> Download Resume</button>
+            </a>
           </div>
         </div>
       </div>
