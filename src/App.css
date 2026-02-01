@@ -33,3 +33,9 @@ body {
     background-position: center;
   }
 }
+
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+}
