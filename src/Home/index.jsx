@@ -1,7 +1,6 @@
 import "./style.css";
 import Vector from "../assets/Vector.png";
-import Rasm from "../assets/photo_2025-05-27_18-40-45.jpg";
-import About from "../About";
+import Rasm1 from "../assets/Rasm1.png";
 
 function Home() {
   return (
@@ -34,7 +33,7 @@ function Home() {
           </div>
         </div>
         <div className="Home_content_img">
-          <img src={Rasm} alt="#" />
+          <img src={Rasm1} alt="#" />
         </div>
       </div>
       <h2 className="Home_line"></h2>
