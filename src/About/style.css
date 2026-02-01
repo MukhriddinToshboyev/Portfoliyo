@@ -101,6 +101,11 @@
   color: #55e5a4;
 }
 
+.About_btn button:hover {
+  background-color: #55e5a4;
+  color: black;
+}
+
 /* Line */
 
 .About_line {
