@@ -13,7 +13,7 @@ function About() {
         </div>
         <div className="About_section">
           <div className="About_section_name">
-            <h2 className="About_title"> Muxriddin</h2>
+            <h2 className="About_title">About Me</h2>
             <div className="About_title_span">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
