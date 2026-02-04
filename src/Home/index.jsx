@@ -1,25 +1,23 @@
 import "./style.css";
 import Vector from "../assets/Vector.png";
-import Rasm1 from "../assets/Rasm1.png";
+import Rasm2 from "../assets/rasm2.png";
 
 function Home() {
   return (
     <div className="Home_container">
       <div className="Home_navbar">
-        <h2 className="Home_navbar_name">MT</h2>
+        <h2 className="Home_navbar_title">MT</h2>
         <div className="Home_navbar_btn">
-          <a href="#About">
-            <button>About</button>
-          </a>
+          <button>About</button>
           <button>Projects</button>
           <button>Contact</button>
         </div>
-        <button className="Home_navbar_img">
+        <div className="Home_navbar_icon">
           <img src={Vector} alt="#" />
-        </button>
+        </div>
       </div>
-      <div className="Home_content">
-        <div className="Home_content_text">
+      <div className="Home_card">
+        <div className="Home_left">
           <h1 className="content_name">Toshboyev Muxriddin </h1>
           <h2 className="content_title">Frontend Developer</h2>
           <p className="content_paragraf">
@@ -33,7 +31,7 @@ function Home() {
           </div>
         </div>
         <div className="Home_content_img">
-          <img src={Rasm1} alt="#" />
+          <img src={Rasm2} alt="#" />
         </div>
       </div>
       <h2 className="Home_line"></h2>
