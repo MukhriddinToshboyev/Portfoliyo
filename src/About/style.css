@@ -1,23 +1,22 @@
 .About_container {
-  width: 100%;
+  width: 63rem;
   height: 100vh;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   font-family: sans-serif;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .About_container {
-    flex-direction: column-reverse;
-    margin: 1.5rem;
-    height: 100vh;
+    flex-direction: column;
+    padding: 1.5rem;
   }
-}
+} */
 
 .About_navbar {
-  /* width: 28rem; */
+  width: 28rem;
 }
 
 .About_navbar_img {
@@ -36,7 +35,7 @@
 /* Section */
 
 .About_section {
-  /* width: 28rem; */
+  width: 28rem;
 }
 
 .About_section_name {
