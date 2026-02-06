@@ -13,7 +13,7 @@
   padding: 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .Home_navbar_title {
@@ -42,19 +42,6 @@
   color: #151c25;
   cursor: pointer;
   border-radius: 0.4rem;
-}
-
-.Home_navbar_icon {
-  background: none;
-  border: none;
-  width: 2rem;
-  height: 2rem;
-}
-
-.Home_navbar_icon :hover {
-  background-color: #55e5a4;
-  border-radius: 40%;
-  cursor: pointer;
 }
 
 /* Card */
@@ -108,16 +95,16 @@
 .Home_right {
   background-color: #55e5a4;
   border-radius: 2rem;
-  width: 22.25rem;
-  height: 24rem;
+  width: 26rem;
+  height: 28rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .Home_right img {
-  width: 22rem;
-  height: 28rem;
+  width: 26rem;
+  height: 32rem;
   margin-bottom: 4.3rem;
   border-radius: 2rem;
 }
@@ -133,12 +120,12 @@
 @media (max-width: 768px) {
   .Home_navbar {
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 2rem;
     gap: 1rem;
   }
   .Home_card {
     flex-direction: column;
     padding: 2rem;
-    gap: 1rem;
+    gap: 2rem;
   }
 }

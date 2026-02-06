@@ -12,9 +12,6 @@ function Home() {
           <button>Projects</button>
           <button>Contact</button>
         </div>
-        <div className="Home_navbar_icon">
-          <img src={Vector} alt="#" />
-        </div>
       </nav>
       <main className="Home_card">
         <section className="Home_left">
