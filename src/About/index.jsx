@@ -5,16 +5,16 @@ import Resume from "../assets/Muxriddin Resume.pdf";
 function About() {
   return (
     <div className="About">
-      <div className="About_container">
-        <div className="About_navbar">
-          <div className="About_navbar_img">
+      <main className="About_container">
+        <section className="About_left">
+          <div className="About_img">
             <img src={Rasm1} alt="#" />
           </div>
-        </div>
-        <div className="About_section">
-          <div className="About_section_name">
+        </section>
+        <section className="About_right">
+          <div className="About_name">
             <h2 className="About_title">About Me</h2>
-            <div className="About_title_span">
+            <div className="About_right_icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22"
@@ -27,7 +27,7 @@ function About() {
               <span className="About_span"> Who Am I? </span>
             </div>
           </div>
-          <p className="About_section_text">
+          <p className="About_text">
             Hi, I’m Muxriddin, a front-end developer who loves bringing ideas to
             life through interactive and responsive web applications. I
             specialize in React, JavaScript, HTML, and modern CSS frameworks,
@@ -200,13 +200,13 @@ function About() {
               <span className="About_icon_text"> Css </span>
             </div>
           </div>
-          <div className="About_btn">
+          <div className="About_right_btn">
             <a href={Resume} download>
-              <button> Download Resume</button>
+              <button className="About_btn"> Download Resume</button>
             </a>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
       <h2 className="About_line"></h2>
     </div>
   );

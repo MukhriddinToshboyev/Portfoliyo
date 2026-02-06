@@ -96,7 +96,7 @@
   background-color: #55e5a4;
   border-radius: 2rem;
   width: 26rem;
-  height: 28rem;
+  height: 30rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +104,7 @@
 
 .Home_right img {
   width: 26rem;
-  height: 32rem;
+  height: 34rem;
   margin-bottom: 4.3rem;
   border-radius: 2rem;
 }
