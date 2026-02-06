@@ -1,6 +1,6 @@
 .Projects_container {
-  width: 63.75rem;
-  /* height: 100vh; */
+  width: 100%;
+  min-height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -45,18 +45,18 @@
   font-size: 1.2rem;
 }
 
-/* Section */
+/* Main */
 
-.Projects_section {
+.Projects_cards {
   width: 100%;
   margin-top: 5rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.Projects_section_card {
+.Projects_card {
   margin-bottom: 5rem;
   border-radius: 1rem;
   background-color: #26313f;
@@ -68,7 +68,7 @@
   border-top-right-radius: 1rem;
 }
 
-.Projects_section_text {
+.Projects_card_text {
   width: 28rem;
   display: flex;
   flex-direction: column;
@@ -76,23 +76,23 @@
   justify-content: center;
 }
 
-.Projects_section_name {
+.Projects_card_name {
   font-size: 1.5rem;
   margin: 0.5rem;
 }
 
-.Projects_section_title {
+.Projects_card_title {
   color: #a9a9a9;
   text-align: flex-start;
   margin-left: 1.3rem;
 }
 
-.Projects_section_techno {
+.Projects_card_techno {
   font-size: 1rem;
   margin: 0.6rem;
 }
 
-.Projects_section_icons {
+.Projects_card_icons {
   list-style: none;
   display: flex;
   gap: 2rem;
@@ -100,7 +100,7 @@
 
 /* Footer */
 
-.Projects_footer_btn_visit {
+.Projects_card_btn_visit {
   background: none;
   color: white;
   border: 2px solid #ffff;
@@ -110,7 +110,17 @@
   margin: 1rem;
 }
 
-.Projects_footer_btn_view {
+.Projects_card_btn_view {
+  color: #26313f;
+  border: 2px solid #55e5a4;
+  background: #55e5a4;
+  width: 8rem;
+  height: 2rem;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.Projects_footer_btn {
   color: #26313f;
   border: 2px solid #55e5a4;
   background: #55e5a4;
@@ -126,4 +136,10 @@
   width: 100%;
   height: 0.1rem;
   background-color: #55e5a4;
+}
+
+@media (max-width: 768px) {
+  .Projects_cards {
+    flex-direction: column;
+  }
 }

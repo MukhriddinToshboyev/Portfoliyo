@@ -11,25 +11,25 @@ function Projects() {
     <div className="Projects">
       <div className="Projects_container">
         <h1 className="Projects_title">Projects</h1>
-        <div className="Projects_btn">
+        <nav className="Projects_btn">
           <button className="Projects_btn_all"> All Projects</button>
           <button className="Projects_btn_geo"> Frontend</button>
           <button className="Projects_btn_geo"> Geo Informatics</button>
-        </div>
-        <div className="Projects_section">
-          <div className="Projects_section_card">
+        </nav>
+        <main className="Projects_cards">
+          <article className="Projects_card">
             <img className="Projects_img" src={Restoran} alt="#" />
-            <div className="Projects_section_text">
-              <h2 className="Projects_section_name"> Restaurand Website</h2>
-              <p className="Projects_section_title">
+            <div className="Projects_card_text">
+              <h2 className="Projects_card_name"> Restaurand Website</h2>
+              <p className="Projects_card_title">
                 A modern and user-friendly restaurant website. The project
                 includes a food menu, pricing, category filtering, and a fully
                 responsive design. Built with modern frontend technologies to
                 deliver a fast and visually appealing user interface.
               </p>
-              <h1 className="Projects_section_techno"> Technologies Used </h1>
-              <ul className="Projects_section_icons">
-                <li className="Projects_section_icon">
+              <h1 className="Projects_card_techno"> Technologies Used </h1>
+              <ul className="Projects_card_icons">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -107,7 +107,7 @@ function Projects() {
                     </defs>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="-11.5 -10.23174 23 20.46348"
@@ -123,7 +123,7 @@ function Projects() {
                     </g>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -145,31 +145,31 @@ function Projects() {
                   </svg>
                 </li>
               </ul>
-              <div className="Projects_footer_btn">
-                <button className="Projects_footer_btn_view">
+              <div className="Projects_card_btn">
+                <button className="Projects_card_btn_view">
                   View Live Demo
                 </button>
-                <button className="Projects_footer_btn_visit">
+                <button className="Projects_card_btn_visit">
                   {" "}
                   Visit Site{" "}
                 </button>
               </div>
             </div>
-          </div>
-          <div className="Projects_section_card">
+          </article>
+          <article className="Projects_card">
             <img className="Projects_img" src={Cuser} alt="#" />
-            <div className="Projects_section_text">
-              <h2 className="Projects_section_name"> Users Website</h2>
-              <p className="Projects_section_title">
+            <div className="Projects_card_text">
+              <h2 className="Projects_card_name"> Users Website</h2>
+              <p className="Projects_card_title">
                 Cuser is a web application developed using modern frontend
                 technologies for efficient user data management. The project
                 emphasizes clean design, usability, and clear functionality,
                 making it a practical example suitable for real-world
                 applications.
               </p>
-              <h1 className="Projects_section_techno"> Technologies Used </h1>
-              <ul className="Projects_section_icons">
-                <li className="Projects_section_icon">
+              <h1 className="Projects_card_techno"> Technologies Used </h1>
+              <ul className="Projects_card_icons">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -247,7 +247,7 @@ function Projects() {
                     </defs>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="-11.5 -10.23174 23 20.46348"
@@ -263,7 +263,7 @@ function Projects() {
                     </g>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -285,32 +285,31 @@ function Projects() {
                   </svg>
                 </li>
               </ul>
-              <div className="Projects_footer_btn">
-                <button className="Projects_footer_btn_view">
+              <div className="Projects_card_btn">
+                <button className="Projects_card_btn_view">
                   View Live Demo
                 </button>
-                <button className="Projects_footer_btn_visit">
+                <button className="Projects_card_btn_visit">
                   {" "}
                   Visit Site{" "}
                 </button>
               </div>
             </div>
-          </div>
-          <div className="Projects_section_card">
+          </article>
+          <article className="Projects_card">
             <img className="Projects_img" src={Circular} alt="#" />
-            <div className="Projects_section_text">
-              <h2 className="Projects_section_name"> Circular Website</h2>
-              <p className="Projects_section_title">
+            <div className="Projects_card_text">
+              <h2 className="Projects_card_name"> Circular Website</h2>
+              <p className="Projects_card_title">
                 Circular Website is a landing page project developed using
                 modern frontend technologies. All navigation buttons in the top
                 menu are fully functional, providing smooth scrolling and access
-                to the corresponding sections of the page. The project
-                emphasizes clean design, responsive layout, and user-focused
-                navigation.
+                to the corresponding cards of the page. The project emphasizes
+                clean design, responsive layout, and user-focused navigation.
               </p>
-              <h1 className="Projects_section_techno"> Technologies Used </h1>
-              <ul className="Projects_section_icons">
-                <li className="Projects_section_icon">
+              <h1 className="Projects_card_techno"> Technologies Used </h1>
+              <ul className="Projects_card_icons">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -388,7 +387,7 @@ function Projects() {
                     </defs>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="-11.5 -10.23174 23 20.46348"
@@ -404,7 +403,7 @@ function Projects() {
                     </g>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -426,31 +425,31 @@ function Projects() {
                   </svg>
                 </li>
               </ul>
-              <div className="Projects_footer_btn">
-                <button className="Projects_footer_btn_view">
+              <div className="Projects_card_btn">
+                <button className="Projects_card_btn_view">
                   View Live Demo
                 </button>
-                <button className="Projects_footer_btn_visit">
+                <button className="Projects_card_btn_visit">
                   {" "}
                   Visit Site{" "}
                 </button>
               </div>
             </div>
-          </div>
-          <div className="Projects_section_card">
+          </article>
+          <article className="Projects_card">
             <img className="Projects_img" src={API} alt="#" />
-            <div className="Projects_section_text">
-              <h2 className="Projects_section_name"> Working With API </h2>
-              <p className="Projects_section_title">
+            <div className="Projects_card_text">
+              <h2 className="Projects_card_name"> Working With API </h2>
+              <p className="Projects_card_title">
                 Working With API is a frontend project integrated with an
                 external API to fetch and display real-time data. The
                 application features a search function, card-based layout, and
                 responsive design, focusing on usability and clear data
                 presentation.
               </p>
-              <h1 className="Projects_section_techno"> Technologies Used </h1>
-              <ul className="Projects_section_icons">
-                <li className="Projects_section_icon">
+              <h1 className="Projects_card_techno"> Technologies Used </h1>
+              <ul className="Projects_card_icons">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -528,7 +527,7 @@ function Projects() {
                     </defs>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="-11.5 -10.23174 23 20.46348"
@@ -544,7 +543,7 @@ function Projects() {
                     </g>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -566,30 +565,30 @@ function Projects() {
                   </svg>
                 </li>
               </ul>
-              <div className="Projects_footer_btn">
-                <button className="Projects_footer_btn_view">
+              <div className="Projects_card_btn">
+                <button className="Projects_card_btn_view">
                   View Live Demo
                 </button>
-                <button className="Projects_footer_btn_visit">
+                <button className="Projects_card_btn_visit">
                   {" "}
                   Visit Site{" "}
                 </button>
               </div>
             </div>
-          </div>
-          <div className="Projects_section_card">
+          </article>
+          <article className="Projects_card">
             <img className="Projects_img" src={To_do_list} alt="#" />
-            <div className="Projects_section_text">
-              <h2 className="Projects_section_name"> To Do List </h2>
-              <p className="Projects_section_title">
+            <div className="Projects_card_text">
+              <h2 className="Projects_card_name"> To Do List </h2>
+              <p className="Projects_card_title">
                 To-Do List is a frontend project designed to help users
                 efficiently plan and manage tasks. The application includes
                 features such as adding, editing, completing, and deleting
                 tasks, with a clean design and a focus on user experience.
               </p>
-              <h1 className="Projects_section_techno"> Technologies Used </h1>
-              <ul className="Projects_section_icons">
-                <li className="Projects_section_icon">
+              <h1 className="Projects_card_techno"> Technologies Used </h1>
+              <ul className="Projects_card_icons">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -667,7 +666,7 @@ function Projects() {
                     </defs>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="-11.5 -10.23174 23 20.46348"
@@ -683,7 +682,7 @@ function Projects() {
                     </g>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -705,22 +704,22 @@ function Projects() {
                   </svg>
                 </li>
               </ul>
-              <div className="Projects_footer_btn">
-                <button className="Projects_footer_btn_view">
+              <div className="Projects_card_btn">
+                <button className="Projects_card_btn_view">
                   View Live Demo
                 </button>
-                <button className="Projects_footer_btn_visit">
+                <button className="Projects_card_btn_visit">
                   {" "}
                   Visit Site{" "}
                 </button>
               </div>
             </div>
-          </div>
-          <div className="Projects_section_card">
+          </article>
+          <article className="Projects_card">
             <img className="Projects_img" src={Weather} alt="#" />
-            <div className="Projects_section_text">
-              <h2 className="Projects_section_name"> Weather Forecast </h2>
-              <p className="Projects_section_title">
+            <div className="Projects_card_text">
+              <h2 className="Projects_card_name"> Weather Forecast </h2>
+              <p className="Projects_card_title">
                 Weather Forecast is a web application that retrieves real-time
                 weather data from an external API. Users can enter a city name
                 to view current weather conditions, temperature, and key weather
@@ -728,9 +727,9 @@ function Projects() {
                 performance, and a user-friendly interface, making it suitable
                 for portfolio presentation.
               </p>
-              <h1 className="Projects_section_techno"> Technologies Used </h1>
-              <ul className="Projects_section_icons">
-                <li className="Projects_section_icon">
+              <h1 className="Projects_card_techno"> Technologies Used </h1>
+              <ul className="Projects_card_icons">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -808,7 +807,7 @@ function Projects() {
                     </defs>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="-11.5 -10.23174 23 20.46348"
@@ -824,7 +823,7 @@ function Projects() {
                     </g>
                   </svg>
                 </li>
-                <li className="Projects_section_icon">
+                <li className="Projects_card_icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
@@ -846,23 +845,21 @@ function Projects() {
                   </svg>
                 </li>
               </ul>
-              <div className="Projects_footer_btn">
-                <button className="Projects_footer_btn_view">
+              <div className="Projects_card_btn">
+                <button className="Projects_card_btn_view">
                   View Live Demo
                 </button>
-                <button className="Projects_footer_btn_visit">
+                <button className="Projects_card_btn_visit">
                   {" "}
                   Visit Site{" "}
                 </button>
               </div>
             </div>
-          </div>
-        </div>
-        <div>
-          <button className="Projects_footer_btn_view">
-            View All Projects{" "}
-          </button>
-        </div>
+          </article>
+        </main>
+        <footer>
+          <button className="Projects_footer_btn">View All Projects </button>
+        </footer>
       </div>
       <h2 className="Projects_line"></h2>
     </div>
