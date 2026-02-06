@@ -5,7 +5,7 @@ import Rasm2 from "../assets/rasm2.png";
 function Home() {
   return (
     <div className="Home_container">
-      <div className="Home_navbar">
+      <nav className="Home_navbar">
         <h2 className="Home_navbar_title">MT</h2>
         <div className="Home_navbar_btn">
           <button>About</button>
@@ -15,25 +15,25 @@ function Home() {
         <div className="Home_navbar_icon">
           <img src={Vector} alt="#" />
         </div>
-      </div>
-      <div className="Home_card">
-        <div className="Home_left">
-          <h1 className="content_name">Toshboyev Muxriddin </h1>
-          <h2 className="content_title">Frontend Developer</h2>
-          <p className="content_paragraf">
+      </nav>
+      <main className="Home_card">
+        <section className="Home_left">
+          <h1>Toshboyev Muxriddin </h1>
+          <h2>Frontend Developer</h2>
+          <p>
             I am a passionate frontend developer with experience in creating
             responsive and user-friendly web applications. My expertise includes
             React, JavaScript, and modern CSS frameworks.
           </p>
-          <div className="content_btn">
+          <div className="Home_left_btn">
             <button>Get in Touch</button>
             <p> 🟢 Available now</p>
           </div>
-        </div>
-        <div className="Home_content_img">
+        </section>
+        <section className="Home_right">
           <img src={Rasm2} alt="#" />
-        </div>
-      </div>
+        </section>
+      </main>
       <h2 className="Home_line"></h2>
     </div>
   );

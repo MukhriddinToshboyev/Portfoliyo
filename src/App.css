@@ -23,11 +23,9 @@ body {
   .App {
     background-size: cover;
     background-position: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .App {
     flex-direction: column;
+  }
+  html {
+    font-size: 13px;
   }
 }
