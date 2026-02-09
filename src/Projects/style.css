@@ -142,4 +142,9 @@
   .Projects_cards {
     flex-direction: column;
   }
+  .Projects_btn {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
