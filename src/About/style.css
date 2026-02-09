@@ -125,6 +125,11 @@
     padding: 2rem;
     gap: 2rem;
   }
+
+  .About_img {
+    margin-left: 1.5rem;
+  }
+
   .About_right_btn {
     display: flex;
     justify-content: center;
