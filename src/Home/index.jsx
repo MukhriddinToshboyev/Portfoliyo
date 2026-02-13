@@ -13,24 +13,7 @@ function Home() {
           <button>Contact</button>
         </div>
       </nav>
-      <main className="Home_card">
-        <section className="Home_left">
-          <h1>Toshboyev Muxriddin </h1>
-          <h2>Frontend Developer</h2>
-          <p>
-            I am a passionate frontend developer with experience in creating
-            responsive and user-friendly web applications. My expertise includes
-            React, JavaScript, and modern CSS frameworks.
-          </p>
-          <div className="Home_left_btn">
-            <button>Get in Touch</button>
-            <p> 🟢 Available now</p>
-          </div>
-        </section>
-        <section className="Home_right">
-          <img src={Rasm2} alt="#" />
-        </section>
-      </main>
+
       <h2 className="Home_line"></h2>
     </div>
   );
