@@ -1,6 +1,4 @@
 import "./style.css";
-import Vector from "../assets/Vector.png";
-import Rasm2 from "../assets/rasm2.png";
 
 function Home({ aboutRef, projectsRef, contactRef }) {
   const scrollToSection = (ref) => {
