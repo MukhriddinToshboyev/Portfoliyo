@@ -99,25 +99,29 @@
 }
 
 /* Footer */
-
-.Projects_card_btn_visit {
-  background: none;
+.Projects_card_btn_view {
   color: white;
-  border: 2px solid #ffff;
-  width: 6rem;
+  border: 2px solid white;
+  background: #26313f;
+  width: 8rem;
   height: 2rem;
   font-size: 1rem;
   margin: 1rem;
 }
 
-.Projects_card_btn_view {
+.Projects_card_btn_view a {
+  text-decoration: none;
+  color: white;
+}
+
+.Projects_card_btn_view:hover {
+  background-color: #55e5a4;
   color: #26313f;
   border: 2px solid #55e5a4;
-  background: #55e5a4;
-  width: 8rem;
-  height: 2rem;
-  font-size: 1rem;
-  margin: 1rem;
+}
+.Projects_card_btn_view a:hover {
+  text-decoration: none;
+  color: #26313f;
 }
 
 .Projects_footer_btn {

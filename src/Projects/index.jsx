@@ -287,11 +287,13 @@ function Projects() {
               </ul>
               <div className="Projects_card_btn">
                 <button className="Projects_card_btn_view">
-                  View Live Demo
-                </button>
-                <button className="Projects_card_btn_visit">
-                  {" "}
-                  Visit Site{" "}
+                  <a
+                    href="https://cuser-two.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Live Demo
+                  </a>
                 </button>
               </div>
             </div>
