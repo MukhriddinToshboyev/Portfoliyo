@@ -147,11 +147,13 @@ function Projects() {
               </ul>
               <div className="Projects_card_btn">
                 <button className="Projects_card_btn_view">
-                  View Live Demo
-                </button>
-                <button className="Projects_card_btn_visit">
-                  {" "}
-                  Visit Site{" "}
+                  <a
+                    href="https://pitsa-two.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Live Demo
+                  </a>
                 </button>
               </div>
             </div>
@@ -431,10 +433,6 @@ function Projects() {
                 <button className="Projects_card_btn_view">
                   View Live Demo
                 </button>
-                <button className="Projects_card_btn_visit">
-                  {" "}
-                  Visit Site{" "}
-                </button>
               </div>
             </div>
           </article>
@@ -569,11 +567,14 @@ function Projects() {
               </ul>
               <div className="Projects_card_btn">
                 <button className="Projects_card_btn_view">
-                  View Live Demo
-                </button>
-                <button className="Projects_card_btn_visit">
-                  {" "}
-                  Visit Site{" "}
+                  <a
+                    href="https://getting-information-from-the-api.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    View Live Demo
+                  </a>
                 </button>
               </div>
             </div>
@@ -708,11 +709,14 @@ function Projects() {
               </ul>
               <div className="Projects_card_btn">
                 <button className="Projects_card_btn_view">
-                  View Live Demo
-                </button>
-                <button className="Projects_card_btn_visit">
-                  {" "}
-                  Visit Site{" "}
+                  <a
+                    href="https://to-do-list-mu-nine-l4qomy5xy1.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    View Live Demo
+                  </a>
                 </button>
               </div>
             </div>
@@ -849,11 +853,13 @@ function Projects() {
               </ul>
               <div className="Projects_card_btn">
                 <button className="Projects_card_btn_view">
-                  View Live Demo
-                </button>
-                <button className="Projects_card_btn_visit">
-                  {" "}
-                  Visit Site{" "}
+                  <a
+                    href="https://weather-forecast-omega-ruddy.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Live Demo
+                  </a>
                 </button>
               </div>
             </div>
