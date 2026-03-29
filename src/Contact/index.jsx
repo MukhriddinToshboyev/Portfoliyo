@@ -116,7 +116,7 @@ function Contact() {
               </div>
               <div>
                 <h3>Telegram</h3>
-                <p> @muxriddin_09</p>
+                <p> @muxriddin_0909</p>
               </div>
             </div>
           </div>
