@@ -161,6 +161,13 @@ export default function Projects() {
 
   const projects = [
     {
+      img: Ecommerce.src,
+      name: t("ecommerce_name"),
+      desc: t("ecommerce_desc"),
+      link: "https://frontend-test-task-hazel.vercel.app/",
+      icons: [NextIcon, ReactIcon, TailwindIcon],
+    },
+    {
       img: Restoran.src,
       name: t("restaurant_name"),
       desc: t("restaurant_desc"),
@@ -194,13 +201,6 @@ export default function Projects() {
       desc: t("todo_desc"),
       link: null,
       icons: defaultIcons,
-    },
-    {
-      img: Ecommerce.src,
-      name: t("ecommerce_name"),
-      desc: t("ecommerce_desc"),
-      link: "https://frontend-test-task-hazel.vercel.app/",
-      icons: [NextIcon, ReactIcon, TailwindIcon],
     },
   ];
 
