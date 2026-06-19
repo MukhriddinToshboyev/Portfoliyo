@@ -1,6 +1,6 @@
 .Footer {
   height: 30rem;
-  background-color: #26313f;
+  background-color: var(--bg-secondary);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,12 +11,12 @@
 .Footer_title {
   font-size: 4rem;
   font-weight: 300;
-  color: #7cf0b2;
+  color: var(--accent-text);
 }
 
 .Footer_items {
   list-style: none;
-  color: #a9a9a9;
+  color: var(--text-secondary);
   font-size: 1.5rem;
   display: flex;
   gap: 3rem;
@@ -28,22 +28,21 @@
 }
 
 .Footer_icon svg {
-  color: #7cf0b2;
+  color: var(--accent-text);
   transition: 0.3s;
   cursor: pointer;
 }
 
 .Footer_icon:hover svg {
   transform: scale(1.05);
-  color: #7cf0b2;
+  color: var(--accent-text);
 }
 
 .Footer_line {
   width: 100%;
-
-  border: 1px solid #a9a9a9;
+  border: 1px solid var(--text-secondary);
 }
 
 .Footer_text {
-  color: #a9a9a9;
+  color: var(--text-secondary);
 }

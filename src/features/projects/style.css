@@ -19,33 +19,31 @@
 }
 
 .Projects_btn :hover {
-  background: #55e5a4;
+  background: var(--accent);
   color: #26313f;
-  border: 2px solid #55e5a4;
+  border: 2px solid var(--accent);
   width: 10rem;
   height: 3.125rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .Projects_btn_all {
-  background: #55e5a4;
+  background: var(--accent);
   color: #26313f;
-  border: 2px solid #55e5a4;
+  border: 2px solid var(--accent);
   width: 10rem;
   height: 3.125rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .Projects_btn_geo {
   background: none;
-  color: white;
-  border: 2px solid #55e5a4;
+  color: var(--text-primary);
+  border: 2px solid var(--accent);
   width: 10rem;
   height: 3.125rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
-
-/* Main */
 
 .Projects_cards {
   width: 100%;
@@ -59,7 +57,8 @@
 .Projects_card {
   margin-bottom: 5rem;
   border-radius: 1rem;
-  background-color: #26313f;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
 }
 
 .Projects_img {
@@ -82,7 +81,7 @@
 }
 
 .Projects_card_title {
-  color: #a9a9a9;
+  color: var(--text-secondary);
   text-align: flex-start;
   margin-left: 1.3rem;
 }
@@ -98,48 +97,37 @@
   gap: 2rem;
 }
 
-/* Footer */
 .Projects_card_btn_view {
-  color: white;
-  border: 2px solid #55e5a4;
-  background: #26313f;
-  width: 8rem;
-  height: 2rem;
-  font-size: 1rem;
+  color: var(--text-primary);
+  border: 2px solid var(--accent);
+  background: var(--card-bg);
+  width: 10rem;
+  min-height: 2.5rem;
+  font-size: 0.9rem;
   margin: 1rem;
+  white-space: nowrap;
 }
 
 .Projects_card_btn_view a {
   text-decoration: none;
-  color: white;
+  color: var(--text-primary);
 }
 
 .Projects_card_btn_view:hover {
-  background-color: #55e5a4;
+  background-color: var(--accent);
   color: #26313f;
-  border: 2px solid #55e5a4;
+  border: 2px solid var(--accent);
 }
+
 .Projects_card_btn_view a:hover {
   text-decoration: none;
   color: #26313f;
 }
 
-.Projects_footer_btn {
-  color: #26313f;
-  border: 2px solid #55e5a4;
-  background: #55e5a4;
-  width: 8rem;
-  height: 2rem;
-  font-size: 1rem;
-  margin: 1rem;
-}
-
-/* Line */
-
 .Projects_line {
   width: 100%;
   height: 0.1rem;
-  background-color: #55e5a4;
+  background-color: var(--accent);
 }
 
 @media (max-width: 768px) {

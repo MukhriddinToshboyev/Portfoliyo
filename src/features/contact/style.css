@@ -10,7 +10,7 @@
 }
 
 .Contact_title {
-  color: white;
+  color: var(--text-primary);
   font-size: 3rem;
   margin: 2rem;
 }
@@ -22,8 +22,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
-/* Left*/
 
 .Contact_left {
   position: relative;
@@ -50,14 +48,12 @@
   font-size: 1.9rem;
 }
 
-/* Right */
-
 .Contact_right {
   height: 32rem;
   width: 30rem;
   margin-bottom: 0.4rem;
-  background-color: white;
-  color: black;
+  background-color: var(--contact-bg);
+  color: var(--contact-text);
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
   display: flex;
@@ -85,14 +81,14 @@
   padding-top: 0.6rem;
   width: 18rem;
   height: 4.5rem;
-  border-top: 1px solid #151c25;
+  border-top: 1px solid var(--bg-primary);
 }
 
 .Contact_icon {
   width: 3rem;
   height: 3rem;
   margin-right: 0.8rem;
-  background-color: #55e5a4;
+  background-color: var(--accent);
   border-radius: 50%;
   color: white;
   display: flex;
